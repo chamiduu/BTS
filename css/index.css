@@ -9,7 +9,7 @@ body {
     font-family: 'Unbounded', cursive;;
 }
 
-nav ul {
+.topNavigation ul {
     width: 90vw;
     height: 100px;
     border-radius: 30px;
@@ -25,12 +25,92 @@ nav ul {
     backdrop-filter: blur(20px);
 }
 
-nav a {
+.topNavigation a {
     text-decoration: none;
     font-size: medium;
     color: white;
 }
 
-nav li {
+.topNavigation li {
     list-style: none;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+}
+
+.homeBg {
+    position: absolute;
+    bottom: 0;
+    width: 160vh;
+    margin-left: 10vw;
+}
+
+.subTitle {
+    font-weight: bolder;
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.19);
+}
+
+footer {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomNavigation {
+    width: 300px;
+}
+
+.bottomNavigation a {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: lighter;
+    color: white;
+}
+
+.bottomNavigation li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: max-content;
+    /* display: block; */
+    align-items: center;
+    padding: 0 50px;
+}
+
+.acictsLogo {
+    width: 150px;
+}
+
+.creditsText {
+    color: white;
+    margin-top: 10px;
+}
+
+.creditsText a {
+    color: white;
+}
+
+.team {
+    width: max-content;
+}
+
+.team a {
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+}
+
+.team li {
+    list-style: none;
+    padding-bottom: 10px;
+    text-align: end;
+    font-weight: lighter;
 }
