@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #121315; 
+    font-family: 'Unbounded', cursive;;
+}
+
+nav ul {
+    width: 90vw;
+    height: 100px;
+    border-radius: 30px;
+    padding: 30px 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 30px;
+    left: 5vw;
+    background-color: #4445461e;
+    backdrop-filter: blur(20px);
+}
+
+nav a {
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+}
+
+nav li {
+    list-style: none;
+}
