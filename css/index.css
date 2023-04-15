@@ -99,17 +99,41 @@ footer {
 }
 
 
-/* HERO SECTION */
+/* _____________________________HERO SECTION_________________________ */
 .hero {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .homeBg {
     position: absolute;
     bottom: 0;
-    width: 160vh;
-    margin-left: 10vw;
+    width: 100%;
+}
+
+.titleBelowScreen {
+    font-weight: 700;
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 200px;
+    color: #f0f8ff;
+    position: absolute;
+}
+
+.titleAboveScreen {
+    font-weight: 700;
+    font-size: 10vw;
+    text-align: center;
+    margin-top: 200px;
+    color: #f0f8ff00;
+    -webkit-text-stroke: #f0f8ff;
+    -webkit-text-stroke-width: 3px;
+    z-index: 999;
 }
 
 .subTitle {
