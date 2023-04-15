@@ -34,6 +34,7 @@ body {
 .topNavigation a {
     text-decoration: none;
     font-size: medium;
+    font-weight: light;
     color: white;
 }
 
@@ -119,6 +120,8 @@ footer {
     bottom: 0; */
 }
 
+
+
 .homeBg {
     position: absolute;
     bottom: 0;
@@ -177,4 +180,15 @@ footer {
 .scrollText {
     color: white;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .homeBg {
+        width: 90vw;
+    }
+
+    .subTitle {
+        font-size: 4em;
+        margin-top: 30px;
+    }
 }
