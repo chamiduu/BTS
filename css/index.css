@@ -1,3 +1,4 @@
+/* BASIC STYLES (NAVBAR/FOOTER) */
 * {
     margin: 0;
     padding: 0;
@@ -33,24 +34,6 @@ body {
 
 .topNavigation li {
     list-style: none;
-}
-
-.hero {
-    width: 100vw;
-    height: 100vh;
-}
-
-.homeBg {
-    position: absolute;
-    bottom: 0;
-    width: 160vh;
-    margin-left: 10vw;
-}
-
-.subTitle {
-    font-weight: bolder;
-    text-align: center;
-    border: 3px solid rgba(255, 255, 255, 0.19);
 }
 
 footer {
@@ -114,3 +97,24 @@ footer {
     text-align: end;
     font-weight: lighter;
 }
+
+
+/* HERO SECTION */
+.hero {
+    width: 100vw;
+    height: 100vh;
+}
+
+.homeBg {
+    position: absolute;
+    bottom: 0;
+    width: 160vh;
+    margin-left: 10vw;
+}
+
+.subTitle {
+    font-weight: bolder;
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.19);
+}
+
