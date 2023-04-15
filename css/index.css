@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 body {
     background-color: #121315; 
     font-family: 'Unbounded', cursive;;
@@ -37,9 +42,13 @@ body {
 }
 
 footer {
-    padding: 30px 50px;
+    padding: 20px 50px;
     display: flex;
     justify-content: space-between;
+    /* position: absolute; */
+    width: 100vw;
+    margin-top: 100px;
+    background: #121315;
 }
 
 .bottomNavigation {
@@ -102,25 +111,25 @@ footer {
 /* _____________________________HERO SECTION_________________________ */
 .hero {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 }
 
 .homeBg {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 80vw;
 }
 
 .titleBelowScreen {
     font-weight: 700;
     font-size: 10vw;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 300px;
     color: #f0f8ff;
     position: absolute;
 }
@@ -129,7 +138,7 @@ footer {
     font-weight: 700;
     font-size: 10vw;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 300px;
     color: #f0f8ff00;
     -webkit-text-stroke: #f0f8ff;
     -webkit-text-stroke-width: 3px;
@@ -139,6 +148,33 @@ footer {
 .subTitle {
     font-weight: bolder;
     text-align: center;
-    border: 3px solid rgba(255, 255, 255, 0.19);
+    /* -webkit-text-stroke: #FFFFFF30;
+    -webkit-text-stroke-width: 3px; */
+    z-index: 999;
+    font-size: 5em;
+    color: rgba(0, 0, 0, 0.932);
+    text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+     margin-top: 100px;
 }
 
+.cta {
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 50px;
+}
+
+.scrollButton {
+    width: 40px;
+}
+
+.scrollText {
+    color: white;
+    margin-top: 10px;
+}
