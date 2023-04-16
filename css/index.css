@@ -1,115 +1,3 @@
-/* BASIC STYLES (NAVBAR/FOOTER) */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
-
-body {
-    background-color: #121315; 
-    font-family: 'Unbounded', cursive;;
-}
-
-.topNavigation ul {
-    width: 90vw;
-    height: 100px;
-    border-radius: 30px;
-    padding: 30px 5vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 30px;
-    left: 5vw;
-    background-color: #6363631e;
-    backdrop-filter: blur(20px);
-    z-index: 9999;
-}
-
-.topNavigation a {
-    text-decoration: none;
-    font-size: medium;
-    font-weight: light;
-    color: white;
-}
-
-.topNavigation li {
-    list-style: none;
-}
-
-footer {
-    padding: 20px 50px;
-    display: flex;
-    justify-content: space-between;
-    /* position: absolute; */
-    width: 100vw;
-    margin-top: 100px;
-    background: #121315;
-}
-
-.bottomNavigation {
-    width: 300px;
-}
-
-.bottomNavigation a {
-    text-decoration: none;
-    font-size: medium;
-    font-weight: lighter;
-    color: white;
-}
-
-.bottomNavigation li {
-    list-style: none;
-    padding-bottom: 10px;
-}
-
-.credits {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: max-content;
-    /* display: block; */
-    align-items: center;
-    padding: 0 50px;
-}
-
-.acictsLogo {
-    width: 150px;
-}
-
-.creditsText {
-    color: white;
-    margin-top: 10px;
-}
-
-.creditsText a {
-    color: white;
-}
-
-.team {
-    width: max-content;
-}
-
-.team a {
-    text-decoration: none;
-    font-size: medium;
-    color: white;
-}
-
-.team li {
-    list-style: none;
-    padding-bottom: 10px;
-    text-align: end;
-    font-weight: lighter;
-}
-
-
 /* _____________________________HERO SECTION_________________________ */
 .hero {
     width: 100vw;
@@ -175,12 +63,13 @@ footer {
 }
 
 .scrollButton {
-    width: 40px;
+    width: 48px;
 }
 
 .scrollText {
     color: white;
     margin-top: 10px;
+    font-weight: 300;
 }
 
 /* ___________________________________DESCRIPTION SECTION___________________________________ */
@@ -205,35 +94,8 @@ footer {
 
 
 /* ___________________________________SECTORS SECTION___________________________________ */
-.sector {
-    width: 100vw;
-    height: 40vh;
-    display: flex;
-    flex-direction: row;
-}
-
-.sector:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
 .textSection {
-    position: relative;
-    width: 50vw;
-    height: 40vh;
-    background-size: cover;
-    background-image: url('../assets/images/waveBg-orange.png');
-}
-
-.textSection.education {
-    background-image: url('../assets/images/waveBg-green.png');
-}
-
-.textSection.industry {
-    background-image: url('../assets/images/waveBg-blue.png');
-}
-
-.textSection.healthcare {
-    background-image: url('../assets/images/waveBg-red.png');
+    background-blend-mode: multiply;
 }
 
 .sectorName {
@@ -242,19 +104,6 @@ footer {
     left: 40px;
     color: #e0e0e0;
     font-size: 3em;
-}
-
-.arrow {
-    position: absolute;
-    bottom: 40px;
-    right: 40px;
-    width: 70px;
-}
-
-.sectorImg {
-    width: 50vw;
-    object-fit: cover;
-    /* align-self: flex-end; */
 }
 
 
