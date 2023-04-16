@@ -314,3 +314,23 @@ text-rendering: geometricPrecision;
     font-weight: light;
 }
 
+
+/* ___________________________________NEGATIVES SECTION___________________________________ */
+.communicationNegativePoints {
+    background-image: url('../assets/images/communicationDescriptionBG.png');
+    background-size: cover;
+    padding: 6vw 10vw;
+}
+
+.pointTitle {
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.pointPara {
+    font-size: 1.1em;
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: light;
+    margin-bottom: 50px;
+}
