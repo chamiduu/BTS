@@ -27,8 +27,9 @@ body {
     position: fixed;
     top: 30px;
     left: 5vw;
-    background-color: #4445461e;
+    background-color: #6363631e;
     backdrop-filter: blur(20px);
+    z-index: 9999;
 }
 
 .topNavigation a {
@@ -188,6 +189,30 @@ text-rendering: geometricPrecision;
     margin-top: 10px;
 }
 
+
+/* ___________________________________DESCRIPTION SECTION___________________________________ */
+
+.siteDescription {
+    background-image: url('../assets/images/communicationDescriptionBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    padding: 100px 200px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.siteDescriptionText {
+    color: #f0f8ff;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+
+}
+
 @media only screen and (max-width: 1400px) {
     .homeBg {
         width: 90vw;
@@ -197,4 +222,67 @@ text-rendering: geometricPrecision;
         font-size: 4em;
         margin-top: 30px;
     }
+}
+
+
+/* ___________________________________POINTS SECTION___________________________________ */
+.communicationPoints {
+    background-image: url('../assets/images/communicationPointsBG.png');
+    background-size: cover;
+    padding: 6vw 10vw;
+}
+
+.pointTitle {
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.pointPara {
+    font-size: 1.1em;
+    color: white;
+    font-weight: light;
+    margin-bottom: 50px;
+}
+
+
+/* ___________________________________SECTORS SECTION___________________________________ */
+.sector {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.sector:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.textSection {
+    position: relative;
+    width: 50vw;
+    height: 40vh;
+    background-size: cover;
+}
+
+
+
+.sectorName {
+    position: absolute;
+    padding: 50px;
+    color: #e0e0e0;
+    font-size: 1.8em;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 70px;
+}
+
+.sectorImg {
+    width: 50vw;
+    object-fit: cover;
+    /* align-self: flex-end; */
 }
