@@ -286,3 +286,31 @@ text-rendering: geometricPrecision;
     object-fit: cover;
     /* align-self: flex-end; */
 }
+
+
+/* ___________________________________HOWEVER SECTION___________________________________ */
+.howeverSection {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/images/howeverBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.howeverSection h1 {
+    color: #F6AAA9;
+    font-size: 8em;
+    font-weight: bold;
+}
+
+.howeverSection p {
+    color: #F6AAA9;
+    font-size: 2em;
+    margin-top: 30px;
+    font-weight: light;
+}
+
