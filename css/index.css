@@ -27,8 +27,9 @@ body {
     position: fixed;
     top: 30px;
     left: 5vw;
-    background-color: #4445461e;
+    background-color: #6363631e;
     backdrop-filter: blur(20px);
+    z-index: 9999;
 }
 
 .topNavigation a {
@@ -206,16 +207,22 @@ footer {
 /* ___________________________________SECTORS SECTION___________________________________ */
 .sector {
     width: 100vw;
-    height: 20vh;
+    height: 40vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
 }
 
 .textSection {
+    position: relative;
     width: 50vw;
+    height: 40vh;
+    background-image: url('../assets/images/waveBg-orange.png');
+    background-size: cover;
+
 }
 
-.sectionName {
+.sectorName {
     position: absolute;
     top: 40px;
     left: 40px;
@@ -227,11 +234,13 @@ footer {
     position: absolute;
     bottom: 40px;
     right: 40px;
+    width: 70px;
 }
 
 .sectorImg {
     width: 50vw;
     object-fit: cover;
+    /* align-self: flex-end; */
 }
 
 
