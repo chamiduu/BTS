@@ -135,6 +135,10 @@ footer {
     margin-top: 300px;
     color: #f0f8ff;
     position: absolute;
+    /* text-rendering: optimizeSpeed; */
+/* text-rendering: optimizeLegibility; */
+/* text-rendering: geometricPrecision; */
+
 }
 
 .titleAboveScreen {
@@ -146,6 +150,8 @@ footer {
     -webkit-text-stroke: #f0f8ff;
     -webkit-text-stroke-width: 3px;
     z-index: 999;
+text-rendering: geometricPrecision;
+
 }
 
 .subTitle {
