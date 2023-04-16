@@ -210,16 +210,30 @@ footer {
     height: 40vh;
     display: flex;
     flex-direction: row;
+}
 
+.sector:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 .textSection {
     position: relative;
     width: 50vw;
     height: 40vh;
-    background-image: url('../assets/images/waveBg-orange.png');
     background-size: cover;
+    background-image: url('../assets/images/waveBg-orange.png');
+}
 
+.textSection.education {
+    background-image: url('../assets/images/waveBg-green.png');
+}
+
+.textSection.industry {
+    background-image: url('../assets/images/waveBg-blue.png');
+}
+
+.textSection.healthcare {
+    background-image: url('../assets/images/waveBg-red.png');
 }
 
 .sectorName {
