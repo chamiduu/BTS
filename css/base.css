@@ -19,6 +19,22 @@ html {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #3a3a3a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
 body {
     background-color: #121315; 
     font-family: 'Unbounded', cursive;;
