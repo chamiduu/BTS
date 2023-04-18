@@ -76,7 +76,8 @@
 /* ___________________________________DESCRIPTION SECTION___________________________________ */
 
 .siteDescription {
-    background-image: url('../assets/images/DotsBG.png');
+    /* background-image: url('../assets/images/DotsBG.png'); */
+    background-color: #121315;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100vw;
@@ -85,6 +86,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: justify;
 }
 
 .siteDescriptionText {

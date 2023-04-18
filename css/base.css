@@ -74,7 +74,7 @@ body {
     list-style: none;
 }
 
-.navActive {
+.topNavigation .navActive {
     font-weight: bold;
 }
 
@@ -102,6 +102,10 @@ footer {
 .bottomNavigation li {
     list-style: none;
     padding-bottom: 10px;
+}
+
+.bottomNavigation .navActive {
+    font-weight: bold;
 }
 
 .credits {
