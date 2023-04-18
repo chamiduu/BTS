@@ -39,6 +39,12 @@ body {
     background-color: #6363631e;
     backdrop-filter: blur(20px);
     z-index: 9999;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+    transition-delay: 0.5s;
+}
+
+.topNavigation.fixed ul {
+    top: -90px;
 }
 
 .topNavigation a {
