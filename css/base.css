@@ -156,6 +156,7 @@ footer {
 }
 
 .scrollButton {
+    cursor: pointer;
     animation: 1s infinite alternate ease-in scrollAnimation;
 }
 
