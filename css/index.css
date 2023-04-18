@@ -15,7 +15,22 @@
     position: absolute;
     bottom: 0;
     width: 80vw;
+    opacity: 0;
+    animation: homeBgAnimation 3s cubic-bezier(0.13, 0.87, 0.7, 0.97) none;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) 1s;
+}
+
+@keyframes homeBgAnimation {
+    from {
+        width: 200vw;
+        opacity: 0;
+    }
+    to {
+        width: 80vw;
+        opacity: 1;
+    }
 }
 
 .titleBelowScreen {

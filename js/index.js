@@ -6,6 +6,8 @@ const navBar = document.querySelector(".topNavigation");
 window.onscroll = function(e) {
     // Home phone animation
     homeBg.style.width = `${scrollY + (documentWidth*0.8)}px`;
+    homeBg.style.animationFillMode = "none";
+    homeBg.style.opacity = "1";
 
     // Navbar animation
     if (scrollPos < scrollY) {
