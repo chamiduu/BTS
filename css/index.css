@@ -61,6 +61,8 @@
     flex-direction: column;
     position: absolute;
     bottom: 50px;
+    user-select: none;
+    pointer-events: none;
 }
 
 .scrollButton {
