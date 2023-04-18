@@ -118,22 +118,26 @@ text-rendering: geometricPrecision;
 
 /* ___________________________________POINTS SECTION___________________________________ */
 .communicationPoints {
-    background-image: url('../assets/images/communicationPointsBG.png');
-    background-size: cover;
+    /* background-image: url('../assets/images/communicationPointsBG.png'); */
+    background: #FB910F url('../assets/images/doodlePattern.svg') repeat;
+    background-size: 512px;
+    background-blend-mode: multiply;
+    /* background-size: cover; */
     padding: 6vw 10vw;
 }
 
-.pointTitle {
+.communicationPoints .pointTitle {
     color: white;
     margin-bottom: 30px;
     margin-top: 100px;
 }
 
-.pointPara {
+.communicationPoints .pointPara {
     font-size: 1.1em;
     color: white;
-    font-weight: light;
+    font-weight: 300;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 
@@ -148,8 +152,13 @@ text-rendering: geometricPrecision;
     padding: 50px;
     color: #e0e0e0;
     font-size: 1.8em;
+    font-weight: 300;
 }
 
+.sectorHighlighted {
+    color: #FB910F;
+    font-weight: bold;
+}
 
 /* ___________________________________HOWEVER SECTION___________________________________ */
 .howeverSection {
@@ -175,7 +184,7 @@ text-rendering: geometricPrecision;
     color: #F6AAA9;
     font-size: 2em;
     margin-top: 30px;
-    font-weight: light;
+    font-weight: 300;
 }
 
 
@@ -186,15 +195,15 @@ text-rendering: geometricPrecision;
     padding: 6vw 10vw;
 }
 
-.pointTitle {
+.communicationNegativePoints .pointTitle {
     color: white;
     margin-bottom: 30px;
     margin-top: 100px;
 }
 
-.pointPara {
+.communicationNegativePoints .pointPara {
     font-size: 1.1em;
     color: rgba(255, 255, 255, 0.815);
-    font-weight: light;
+    font-weight: 300;
     margin-bottom: 50px;
 }
