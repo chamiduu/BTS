@@ -160,12 +160,15 @@ footer {
     width: 50vw;
     height: 100%;
     background: #121315 url("../assets/images/wavePattern.png") no-repeat left top;
-    background-size: cover;
+    background-size: 200%;
+    background-position: 0% 0%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s ;
 }
 
 .textSection:hover {
     filter: brightness(1.2);
     cursor: pointer;
+    background-position: 100% 0%;
 }
 
 .textSection:hover .arrow {
