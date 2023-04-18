@@ -91,10 +91,10 @@
 /* ___________________________________DESCRIPTION SECTION___________________________________ */
 
 .siteDescription {
-    background-image: url('../assets/images/DotsBG.png');
+    /* background-image: url('../assets/images/DotsBG.png');
     background-size: contain;
-    background-repeat: no-repeat;
-    width: 100vw;
+    background-repeat: no-repeat; */
+    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(14,14,16,1) 100%);    width: 100vw;
     height: 40vw;
     display: flex;
     flex-direction: column;
