@@ -48,29 +48,3 @@ function switchSlidesRight() {
     targetSlide.classList.remove("left"); 
     targetSlide.classList.remove("right"); 
 }
-
-// function switchSlidesLeft() {
-//     // Make the center slide move to the right
-//     slides[currentSlide].classList.remove("active"); 
-//     slides[currentSlide].classList.add("right"); 
-
-//     // Make the left slide move to the right
-
-//     slides[previousSlide+2].classList.remove("right"); 
-//     slides[previousSlide+2].classList.add("left"); 
-//     previousSlide += 1;
-
-//     if (previousSlide >2) {     // Slide index can't go higher than 2 because there're only 3 slides
-//         previousSlide = 0;
-//     }
-//     if (currentSlide == 0) {
-//         currentSlide = 2;
-//     }
-
-//     // Move the right slide to the center
-//     currentSlide -= 1 
-//     targetSlide = slides[currentSlide]  
-//     targetSlide.classList.add("active");
-//     targetSlide.classList.remove("left"); 
-//     targetSlide.classList.remove("right"); 
-// }
