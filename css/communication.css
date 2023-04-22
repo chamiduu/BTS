@@ -122,8 +122,8 @@ text-rendering: geometricPrecision;
 .siteDescriptionText {
     color: #f0f8ff;
     margin-bottom: 30px;
-    font-size: 1.2em;
-
+    font-size: 1.6em;
+    font-weight: 300;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -139,27 +139,9 @@ text-rendering: geometricPrecision;
 
 
 /* ___________________________________POINTS SECTION___________________________________ */
-.communicationPoints {
-    /* background-image: url('../assets/images/communicationPointsBG.png'); */
-    background: #FB910F url('../assets/images/doodlePattern.svg') repeat;
-    background-size: 512px;
-    background-blend-mode: multiply;
-    /* background-size: cover; */
-    padding: 6vw 10vw;
-}
-
-.communicationPoints .pointTitle {
-    color: white;
-    margin-bottom: 30px;
-    margin-top: 100px;
-}
-
-.communicationPoints .pointPara {
-    font-size: 1.1em;
-    color: white;
-    font-weight: 300;
-    margin-bottom: 50px;
-    text-align: justify;
+/* NOTE: styles in the base.css */
+.communicationPoints:nth-child(odd) {
+    background-color: #FB910F;
 }
 
 

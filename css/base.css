@@ -228,3 +228,33 @@ footer {
     object-fit: cover;
     /* align-self: flex-end; */
 }
+
+/* ___________________________________POINTS SECTION___________________________________ */
+.communicationPoints {
+    /* background-image: url('../assets/images/communicationPointsBG.png'); */
+    background: #121315 url('../assets/images/doodlePattern.svg') repeat;
+    background-size: 512px;
+    background-blend-mode: multiply;
+    /* background-size: cover; */
+    padding: 6vw 10vw;
+}
+
+.communicationPoints:nth-child(even) {
+    background-color: #121315;
+    background-blend-mode: overlay;
+}
+
+.communicationPoints .pointTitle {
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 2.2em;
+}
+
+.communicationPoints .pointPara {
+    font-size: 1.2em;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align: justify;
+}
