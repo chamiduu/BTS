@@ -19,26 +19,58 @@ window.onscroll = function(e) {
 }
 
 // the godforbidden carousel
-// idk how the fuck i did this but it works somehow (i'm a retard)
-i = 1;
-j = 0
+// idk how the fuck i did this but it works somehow
 let slides = document.querySelectorAll(".carouselCard");
+currentSlide = 1;  // Current slide number
+previousSlide = 0;  // Previous slide num
 
 function switchSlidesRight() {
-    slides[i].classList.remove("active"); 
-    slides[i].classList.add("left"); 
-    slides[j].classList.remove("left"); 
-    slides[j].classList.add("right"); 
-    j += 1;
-    if (j >2) {
-        j = 0;
+    // Make the center slide move to the left
+    slides[currentSlide].classList.remove("active"); 
+    slides[currentSlide].classList.add("left"); 
+
+    // Make the left slide move to the right
+    slides[previousSlide].classList.remove("left"); 
+    slides[previousSlide].classList.add("right"); 
+    previousSlide += 1;
+
+    if (previousSlide >2) {     // Slide index can't go higher than 2 because there're only 3 slides
+        previousSlide = 0;
     }
-    if (i == 2) {
-        i = -1;
+    if (currentSlide == 2) {
+        currentSlide = -1;
     }
-    targetSlide = slides[i+1]  
+
+    // Move the right slide to the center
+    currentSlide += 1 
+    targetSlide = slides[currentSlide]  
     targetSlide.classList.add("active");
     targetSlide.classList.remove("left"); 
     targetSlide.classList.remove("right"); 
-    i += 1 
 }
+
+// function switchSlidesLeft() {
+//     // Make the center slide move to the right
+//     slides[currentSlide].classList.remove("active"); 
+//     slides[currentSlide].classList.add("right"); 
+
+//     // Make the left slide move to the right
+
+//     slides[previousSlide+2].classList.remove("right"); 
+//     slides[previousSlide+2].classList.add("left"); 
+//     previousSlide += 1;
+
+//     if (previousSlide >2) {     // Slide index can't go higher than 2 because there're only 3 slides
+//         previousSlide = 0;
+//     }
+//     if (currentSlide == 0) {
+//         currentSlide = 2;
+//     }
+
+//     // Move the right slide to the center
+//     currentSlide -= 1 
+//     targetSlide = slides[currentSlide]  
+//     targetSlide.classList.add("active");
+//     targetSlide.classList.remove("left"); 
+//     targetSlide.classList.remove("right"); 
+// }
