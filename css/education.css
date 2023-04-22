@@ -141,7 +141,7 @@ text-rendering: geometricPrecision;
 /* ___________________________________POINTS SECTION___________________________________ */
 .communicationPoints {
     /* background-image: url('../assets/images/communicationPointsBG.png'); */
-    background: #FB910F url('../assets/images/doodlePattern.svg') repeat;
+    background: #0CA26C url('../assets/images/doodlePattern.svg') repeat;
     background-size: 512px;
     background-blend-mode: multiply;
     /* background-size: cover; */
@@ -178,7 +178,7 @@ text-rendering: geometricPrecision;
 }
 
 .sectorHighlighted {
-    color: #FB910F;
+    color: #0CA26C;
     font-weight: bold;
 }
 
