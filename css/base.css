@@ -266,6 +266,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) all 0.5s;
+
 }
 
 .carouselCard {
@@ -276,6 +277,8 @@ footer {
     overflow: hidden;
     padding: 20px;
     scale: 0.7;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) all 0.5s;
+
 }
 
 .carouselImg {
@@ -303,4 +306,11 @@ footer {
     scale: 1;
     z-index: 99;
     transform: translate(-50%, 0);
+}
+
+.carouselControls {
+    width: 80vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
 }
