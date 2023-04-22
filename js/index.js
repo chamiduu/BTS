@@ -21,15 +21,24 @@ window.onscroll = function(e) {
 // the godforbidden carousel
 // idk how the fuck i did this but it works somehow (i'm a retard)
 i = 1;
+j = 0
 let slides = document.querySelectorAll(".carouselCard");
 
-function switchSlidesRight(e) {
-    slides[i].classList.remove("active"); // 1, 2
+function switchSlidesRight() {
+    slides[i].classList.remove("active"); 
+    slides[i].classList.add("left"); 
+    slides[j].classList.remove("left"); 
+    slides[j].classList.add("right"); 
+    j += 1;
+    if (j >2) {
+        j = 0;
+    }
     if (i == 2) {
         i = -1;
     }
-    targetSlide = slides[i+1] // 2, 0, 1, 
+    targetSlide = slides[i+1]  
     targetSlide.classList.add("active");
-    i += 1 //2
-    
+    targetSlide.classList.remove("left"); 
+    targetSlide.classList.remove("right"); 
+    i += 1 
 }
