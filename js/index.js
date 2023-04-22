@@ -48,3 +48,7 @@ function switchSlidesRight() {
     targetSlide.classList.remove("left"); 
     targetSlide.classList.remove("right"); 
 }
+
+setInterval(() => {
+    switchSlidesRight()
+}, 5000);
