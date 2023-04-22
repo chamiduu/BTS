@@ -258,3 +258,30 @@ footer {
     margin-bottom: 30px;
     text-align: justify;
 }
+
+.carouselCard {
+    background-color: #8a8a8a5e;
+    border-radius: 25px;
+    width: min-content;
+    backdrop-filter: blur(100px);
+    overflow: hidden;
+    padding: 20px;
+
+}
+
+.carouselImg {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.carouselPara {
+    color: #D2D2D2;
+    margin-bottom: 10px;
+}
+
+.carousel {
+    display: flex;
+}
