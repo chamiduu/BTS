@@ -249,7 +249,6 @@ footer {
     margin-bottom: 30px;
     margin-top: 30px;
     font-size: 2.2em;
-    text-align: center !important;
 }
 
 .communicationPoints .pointPara {
@@ -261,6 +260,7 @@ footer {
 }
 
 .carousel {
+    margin-top: 80px;
     height: 500px;
     width: 80vw;
     display: flex;
@@ -311,6 +311,7 @@ footer {
 .carouselPara {
     color: #D2D2D2;
     margin-bottom: 10px;
+    text-align: justify;
 }
 
 .carouselCard.active {
@@ -335,3 +336,4 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
