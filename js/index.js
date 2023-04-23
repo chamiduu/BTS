@@ -51,4 +51,4 @@ function switchSlidesRight() {
 
 setInterval(() => {
     switchSlidesRight()
-}, 5000);
+}, 8000);
