@@ -185,6 +185,12 @@ footer {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s ;
 }
 
+@media only screen and (max-width: 1500px) {
+    .textSection h1 {
+        font-size: 1.3em;
+    }
+}
+
 .textSection:hover {
     filter: brightness(1.2);
     cursor: pointer;
