@@ -176,6 +176,7 @@ text-rendering: geometricPrecision;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .howeverSection h1 {
